@@ -33,7 +33,7 @@ body {
     background-color:transparent;
 }
 #content{
-	background-image: url(back.jpg);
+	background-image: url(./img/background_img.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
