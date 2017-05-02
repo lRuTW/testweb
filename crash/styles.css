@@ -1,0 +1,142 @@
+
+body {
+	font-family:Microsoft JhengHei;
+    text-align: justify;
+    line-height: 130%;
+        }
+#gotop{
+	 display: none;
+	 float:right;
+	 position:fixed;
+	 right:0px;
+	 bottom:5%;
+	 z-index:20;
+	 outline: none;
+     border: 0px;
+     border-color:transparent;
+     background-color:transparent;
+}
+
+/*#header{
+  position:fixed; /*固定位置定位
+  top:0px; /*距離上方 0 像素
+  width: 100%;
+  z-index:1; /*重疊時會在其他元素之上
+  background-color: #FFF; 
+}*/
+
+.navbar{
+	margin-bottom: 0;
+}
+.navbar-default,.thumbnail{
+	border-color:transparent;
+    background-color:transparent;
+}
+#content{
+	background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-position:  top;
+}
+.imgf_1{
+    opacity: 0.8;
+}
+/*
+#right{
+	 position: fixed;
+	 padding: 0px 0px 0px 1380px;
+}
+#header {
+	position: fixed;
+	}
+**/
+#youtube{
+	opacity: 0.7;
+}
+hr{
+border:0;background-color:black;height:1px;
+}
+/*論壇圖片-------------------------------------------------------*/
+.imgf:hover img {
+    -moz-transform:scale(0.9);
+    -webkit-transform:scale(0.9);
+    -o-transform:scale(0.9);
+    -ms-transform:scale(0.9);
+    transform:scale(0.9);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.imgf:hover{
+	opacity: 0.7;
+}
+.me{
+	opacity: 0.8;
+}
+.imgf_1:hover{
+	opacity: 1;
+}
+/*白色情人節圖---------------------------------------------------*/
+.imgt:hover img {
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.imgt .desc p {
+	padding: 10px 10px 10px 10px;
+	font-size: 12px;
+	color:black;
+}
+.imgt{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+/*影片滑鼠移入動畫-----------------------------------------------*/
+#youtube:hover{
+	opacity: 1;
+}
+#youtube:hover {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+
+/*資料來源------------------------------------------------------*/
+.well{
+	border-color:transparent;
+    background-color:#fFF;
+    /*background: rgba(240, 0%, 50%, 0.6);*/
+    box-shadow:8px 24px 2px rgba(100%,0%,0%,0.4),16px -4px 2px rgba(0%,100%,0%,0.4),24px 12px 2px rgba(0%,0%,100%,0.4);
+    /*box-shadow:2px 2px 2px rgba(20%,20%,40%,0.6),4px 4px 6px rgba(20%,20%,40%,0.4),6px 6px 12px rgba(20%,20%,40%,0.4);
+    /*box-shadow:0px 0px 0px 0px rgba(0%,0%,0%,0);
+    background-color: red;*/
+}
+
+/*回到頂端透明--------------------------------------------------*/
+.GOTOP:hover img {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.GOTOP:hover{
+	opacity: 0.6;
+}
+#id_footer {
+ position: relative;
+ height: 20px;
+ background-color: black;
+}
